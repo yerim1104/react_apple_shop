@@ -1,6 +1,11 @@
 .App {
   text-align: center;
 }
+
+.container{
+  flex-wrap: wrap;
+
+}
 .container2{
   height: 400px;
   padding:130px;

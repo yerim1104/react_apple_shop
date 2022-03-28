@@ -1,0 +1,31 @@
+
+
+// .my-alert-red{
+//     @extend.my-alert;
+//     background: yellow;
+// }
+
+@mixin function() {
+    background-color:#eeeeee;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+
+.my-alert{
+    @include function()
+}
+
+.my-alert p {
+    margin-bottom: 0;
+}
+
+$maincolor: black;
+
+.titlecolor{
+    color: $maincolor;
+    
+}
+
